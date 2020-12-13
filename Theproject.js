@@ -18,4 +18,4 @@ const messageMixer =(array1,array2)=>{
     return messageArray[Math.floor(Math.random()* 3)];
 
 }
-console.log(messageMixer(message1,message2));
+console.log('Did you know' + messageMixer(message1,message2));
